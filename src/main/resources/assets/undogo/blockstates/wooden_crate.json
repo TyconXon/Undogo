@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "undogo:block/wooden_crate"
+    },
+    "facing=east": {
+      "model": "undogo:block/wooden_crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "undogo:block/wooden_crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "undogo:block/wooden_crate",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "undogo:block/wooden_crate",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "undogo:block/wooden_crate",
+      "x": 90
+    }
+  }
+}

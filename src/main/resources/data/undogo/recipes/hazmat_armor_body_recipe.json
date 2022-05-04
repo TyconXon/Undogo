@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "undogo:plastic"
+    },
+    "2": {
+      "item": "undogo:plastic"
+    },
+    "3": {
+      "item": "undogo:plastic"
+    },
+    "4": {
+      "item": "undogo:plastic"
+    },
+    "5": {
+      "item": "undogo:plastic"
+    },
+    "6": {
+      "item": "undogo:plastic"
+    },
+    "7": {
+      "item": "undogo:plastic"
+    },
+    "8": {
+      "item": "undogo:plastic"
+    }
+  },
+  "result": {
+    "item": "undogo:hazmat_armor_chestplate",
+    "count": 1
+  }
+}

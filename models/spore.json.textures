@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "texture",
+        "2": "pasted"
+      },
+      "name": "default"
+    }
+  }
+}

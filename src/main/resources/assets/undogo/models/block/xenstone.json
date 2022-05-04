@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "undogo:blocks/c4a1a_swmpwl",
+    "particle": "undogo:blocks/c4a1a_swmpwl"
+  }
+}

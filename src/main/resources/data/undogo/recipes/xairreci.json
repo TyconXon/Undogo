@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 230,
+  "ingredient": {
+    "item": "undogo:xen_hair"
+  },
+  "result": {
+    "item": "undogo:fried_xair"
+  }
+}

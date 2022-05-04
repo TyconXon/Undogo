@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "undogo:blocks/hair",
+    "particle": "undogo:blocks/hair"
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "gman_12": {
+    "category": "voice",
+    "subtitle": "subtitles.gman_12",
+    "sounds": [
+      {
+        "name": "undogo:gman_12",
+        "stream": false
+      }
+    ]
+  },
+  "snd_spamton_laugh": {
+    "category": "voice",
+    "subtitle": "subtitles.snd_spamton_laugh",
+    "sounds": [
+      {
+        "name": "undogo:snd_spamton_laugh",
+        "stream": false
+      }
+    ]
+  },
+  "snd_chargeshot_fire": {
+    "category": "hostile",
+    "subtitle": "subtitles.snd_chargeshot_fire",
+    "sounds": [
+      {
+        "name": "undogo:snd_chargeshot_fire",
+        "stream": false
+      }
+    ]
+  },
+  "nowsyourchance": {
+    "category": "neutral",
+    "subtitle": "subtitles.nowsyourchance",
+    "sounds": [
+      {
+        "name": "undogo:spamton_battle",
+        "stream": false
+      }
+    ]
+  },
+  "spamton": {
+    "category": "music",
+    "subtitle": "subtitles.spamton",
+    "sounds": [
+      {
+        "name": "undogo:spamton_meeting",
+        "stream": true
+      }
+    ]
+  },
+  "bigshot": {
+    "category": "record",
+    "subtitle": "subtitles.bigshot",
+    "sounds": [
+      {
+        "name": "undogo:spamton_neo_mix_ex_wip",
+        "stream": true
+      }
+    ]
+  },
+  "castletown": {
+    "category": "music",
+    "subtitle": "subtitles.castletown",
+    "sounds": [
+      {
+        "name": "undogo:castletown",
+        "stream": true
+      }
+    ]
+  },
+  "withyouinthedark_ch2": {
+    "category": "record",
+    "subtitle": "subtitles.withyouinthedark_ch2",
+    "sounds": [
+      {
+        "name": "undogo:ch2_credits",
+        "stream": true
+      }
+    ]
+  },
+  "legend": {
+    "category": "music",
+    "subtitle": "subtitles.legend",
+    "sounds": [
+      {
+        "name": "undogo:legend",
+        "stream": true
+      }
+    ]
+  },
+  "baba": {
+    "category": "record",
+    "subtitle": "subtitles.baba",
+    "sounds": [
+      {
+        "name": "undogo:baba",
+        "stream": true
+      }
+    ]
+  },
+  "babatheme": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "undogo:menu",
+        "stream": true
+      }
+    ]
+  },
+  "a": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "undogo:nil_deceive",
+        "stream": false
+      },
+      {
+        "name": "undogo:nil_comes",
+        "stream": false
+      },
+      {
+        "name": "undogo:nil_deceive",
+        "stream": false
+      },
+      {
+        "name": "undogo:nil_die",
+        "stream": false
+      },
+      {
+        "name": "undogo:nil_done",
+        "stream": false
+      },
+      {
+        "name": "undogo:nil_thetruth",
+        "stream": false
+      },
+      {
+        "name": "undogo:nil_thieves",
+        "stream": false
+      }
+    ]
+  },
+  "snd_ominous": {
+    "category": "neutral",
+    "subtitle": "subtitles.snd_ominous",
+    "sounds": [
+      {
+        "name": "undogo:snd_ominous",
+        "stream": false
+      }
+    ]
+  },
+  "nil_thetruth": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "undogo:nil_thetruth",
+        "stream": false
+      }
+    ]
+  },
+  "nill_deceive": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "undogo:nil_deceive",
+        "stream": false
+      }
+    ]
+  },
+  "nil_thieves": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "undogo:nil_thieves",
+        "stream": false
+      }
+    ]
+  },
+  "nil_done": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "undogo:nil_done",
+        "stream": false
+      }
+    ]
+  },
+  "nil_die": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "undogo:nil_die",
+        "stream": false
+      }
+    ]
+  },
+  "nil_comes": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "undogo:nil_comes",
+        "stream": false
+      }
+    ]
+  },
+  "dimensionless_deepness": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "undogo:prospero04",
+        "stream": true
+      }
+    ]
+  },
+  "boid_idle1": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "undogo:boid_idle1",
+        "stream": false
+      }
+    ]
+  },
+  "alien_zonerator": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "undogo:alien_zonerator",
+        "stream": false
+      }
+    ]
+  },
+  "alien_cycletone": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "undogo:alien_cycletone",
+        "stream": false
+      }
+    ]
+  },
+  "alien_wind2": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "undogo:alienwind2",
+        "stream": false
+      }
+    ]
+  },
+  "alienvoices1": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "undogo:alienvoices1",
+        "stream": false
+      }
+    ]
+  },
+  "theme3": {
+    "category": "ambient",
+    "subtitle": "subtitles.theme3",
+    "sounds": [
+      {
+        "name": "undogo:theme3",
+        "stream": false
+      }
+    ]
+  },
+  "ad_jingle": {
+    "category": "hostile",
+    "subtitle": "subtitles.ad_jingle",
+    "sounds": [
+      {
+        "name": "undogo:577363__badoink__snappy-ad-jingle",
+        "stream": false
+      }
+    ]
+  },
+  "warning": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "undogo:51752__erkanozan__warning",
+        "stream": false
+      }
+    ]
+  },
+  "barrel_impact_soft": {
+    "category": "block",
+    "subtitle": "subtitles.barrel_impact_soft",
+    "sounds": [
+      {
+        "name": "undogo:metal_barrel_impact_soft1",
+        "stream": false
+      },
+      {
+        "name": "undogo:metal_barrel_impact_soft2",
+        "stream": false
+      },
+      {
+        "name": "undogo:metal_barrel_impact_soft3",
+        "stream": false
+      }
+    ]
+  },
+  "hard_barrel_impact": {
+    "category": "block",
+    "subtitle": "subtitles.hard_barrel_impact",
+    "sounds": [
+      {
+        "name": "undogo:metal_barrel_impact_hard1",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "undogo:blocks/exp",
+    "up": "undogo:blocks/expl",
+    "north": "undogo:blocks/explos",
+    "east": "undogo:blocks/explo",
+    "south": "undogo:blocks/exploss",
+    "west": "undogo:blocks/explosss",
+    "particle": "undogo:blocks/exp"
+  }
+}

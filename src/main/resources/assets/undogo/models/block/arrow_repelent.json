@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "undogo:blocks/at",
+    "up": "undogo:blocks/at",
+    "north": "undogo:blocks/at2",
+    "east": "undogo:blocks/at2",
+    "south": "undogo:blocks/at2",
+    "west": "undogo:blocks/at2",
+    "particle": "undogo:blocks/at"
+  }
+}

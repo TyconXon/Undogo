@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "undogo:block/q_reflector"
+    },
+    "facing=east": {
+      "model": "undogo:block/q_reflector",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "undogo:block/q_reflector",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "undogo:block/q_reflector",
+      "y": 270
+    }
+  }
+}

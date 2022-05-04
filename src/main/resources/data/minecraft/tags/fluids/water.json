@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "undogo:space_fluid",
+    "undogo:flowing_space_fluid",
+    "undogo:heal",
+    "undogo:flowing_heal",
+    "undogo:toxic_water",
+    "undogo:flowing_toxic_water",
+    "undogo:oil",
+    "undogo:flowing_oil"
+  ]
+}

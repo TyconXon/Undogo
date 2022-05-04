@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "undogo:blocks/xenportal",
+    "particle": "undogo:blocks/xenportal"
+  }
+}

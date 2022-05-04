@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "undogo:plastic"
+    },
+    "2": {
+      "item": "undogo:plastic"
+    },
+    "3": {
+      "item": "undogo:plastic"
+    },
+    "5": {
+      "item": "undogo:plastic"
+    }
+  },
+  "result": {
+    "item": "undogo:hazmat_armor_boots",
+    "count": 1
+  }
+}

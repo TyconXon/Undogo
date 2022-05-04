@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "undogo:block/explosive_barrel"
+    },
+    "facing=east": {
+      "model": "undogo:block/explosive_barrel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "undogo:block/explosive_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "undogo:block/explosive_barrel",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "Toxic Water",
+    "bucketName": "Toxic Water Bucket",
+    "textureStill": "toxicwater",
+    "textureFlowing": "toxicwater",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "SPORE_BLOSSOM_AIR"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 0,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 3,
+    "spawnWorldTypes": [
+      "Nether",
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Wasteland"
+      },
+      {
+        "value": "basalt_deltas"
+      }
+    ],
+    "onTickUpdate": {
+      "name": "ToxicWaterUpdateTick"
+    },
+    "onEntityCollides": {
+      "name": "ToxicWaterMobplayerCollidesBlock"
+    }
+  }
+}

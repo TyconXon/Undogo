@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "baba_0_1",
+    "name": "Baba Record",
+    "description": "Baba Is You",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:baba"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "onRightClickedInAir": {
+      "name": "BabaRecordRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "BabaRecordRightClickedOnBlock"
+    }
+  }
+}

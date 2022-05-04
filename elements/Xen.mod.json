@@ -1,0 +1,45 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:XenBiome"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Xenstone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Heal"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "XenPlayerEntersDimension"
+    },
+    "portalFrame": {
+      "value": "Blocks.GOLD_BLOCK"
+    },
+    "portalParticles": {
+      "value": "ELECTRIC_SPARK"
+    },
+    "portalLuminance": 6,
+    "portalSound": {
+      "value": "CUSTOM:alien_cycletone"
+    },
+    "igniterName": "Xenium",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "xencrystal",
+    "portalTexture": "xenportal",
+    "enablePortal": true
+  }
+}

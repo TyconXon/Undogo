@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "undogo:blocks/qreflector",
+    "up": "undogo:blocks/qreflector",
+    "north": "undogo:blocks/qreflector2",
+    "east": "undogo:blocks/qreflector",
+    "south": "undogo:blocks/qreflector",
+    "west": "undogo:blocks/qreflector",
+    "particle": "undogo:blocks/qreflector"
+  }
+}

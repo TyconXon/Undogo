@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="undogo"
+version="1.0.0"
+displayName="Undogo"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="maxim, MCreator"
+description='''
+idk look at the page on curseforge if it hasn't been taken down by now.
+'''
+
+[[dependencies.undogo]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "undogo:blocks/woodencrate_1",
+    "up": "undogo:blocks/woodencrate_3",
+    "north": "undogo:blocks/woodencrate_2",
+    "east": "undogo:blocks/woodencrate_0",
+    "south": "undogo:blocks/woodencrate_1",
+    "west": "undogo:blocks/woodencrate_3",
+    "particle": "undogo:blocks/woodencrate_1"
+  }
+}

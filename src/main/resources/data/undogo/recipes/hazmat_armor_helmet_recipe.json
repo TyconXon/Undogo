@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "undogo:plastic"
+    },
+    "1": {
+      "item": "undogo:plastic"
+    },
+    "2": {
+      "item": "undogo:plastic"
+    },
+    "3": {
+      "item": "undogo:plastic"
+    },
+    "4": {
+      "item": "minecraft:glass_pane"
+    },
+    "5": {
+      "item": "undogo:plastic"
+    }
+  },
+  "result": {
+    "item": "undogo:hazmat_armor_helmet",
+    "count": 1
+  }
+}

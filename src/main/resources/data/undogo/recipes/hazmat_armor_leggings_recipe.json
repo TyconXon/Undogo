@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "undogo:plastic"
+    },
+    "1": {
+      "item": "undogo:plastic"
+    },
+    "2": {
+      "item": "undogo:plastic"
+    },
+    "3": {
+      "item": "undogo:plastic"
+    },
+    "5": {
+      "item": "undogo:plastic"
+    },
+    "6": {
+      "item": "undogo:plastic"
+    },
+    "8": {
+      "item": "undogo:plastic"
+    }
+  },
+  "result": {
+    "item": "undogo:hazmat_armor_leggings",
+    "count": 1
+  }
+}

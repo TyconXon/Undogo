@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "undogo:textures/crys_3top.png",
+    "icon": {
+      "item": "undogo:xenium_block"
+    },
+    "title": {
+      "translate": "advancements.xen_enter.title"
+    },
+    "description": {
+      "translate": "advancements.xen_enter.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "xen_enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "undogo:xen"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

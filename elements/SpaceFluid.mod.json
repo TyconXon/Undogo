@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "Space Fluid",
+    "bucketName": "Space Fluid Bucket",
+    "textureStill": "spacefluid",
+    "textureFlowing": "spacefluid",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "DRAGON_BREATH"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 500,
+    "viscosity": 500,
+    "isGas": false,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": "entity.elder_guardian.curse"
+    },
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 5,
+    "lightOpacity": 0,
+    "emissiveRendering": true,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "PURPLE_TERRACOTTA",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "CUSTOM:Xen"
+    ],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "SpaceFluidMobplayerCollidesBlock"
+    }
+  }
+}

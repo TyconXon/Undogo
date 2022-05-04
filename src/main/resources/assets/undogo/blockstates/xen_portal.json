@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "undogo:block/xen_portal_ew"
+    },
+    "axis=x": {
+      "model": "undogo:block/xen_portal_ns"
+    }
+  }
+}

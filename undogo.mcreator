@@ -1,0 +1,1712 @@
+{
+  "mod_elements": [
+    {
+      "name": "SpaceFluid",
+      "type": "fluid",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_fluid",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "SpamtonGSpamton",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamton_g_spamton"
+    },
+    {
+      "name": "Wasteland",
+      "type": "biome",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland"
+    },
+    {
+      "name": "GodsLight",
+      "type": "enchantment",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gods_light"
+    },
+    {
+      "name": "SpamtonPaint",
+      "type": "painting",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamton_paint"
+    },
+    {
+      "name": "SpamtonPainting",
+      "type": "painting",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamton_painting"
+    },
+    {
+      "name": "SpamtonPainted",
+      "type": "painting",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamton_painted"
+    },
+    {
+      "name": "HL3",
+      "type": "painting",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hl_3"
+    },
+    {
+      "name": "BMS",
+      "type": "painting",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bms"
+    },
+    {
+      "name": "Jake",
+      "type": "painting",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jake"
+    },
+    {
+      "name": "Sign",
+      "type": "painting",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign"
+    },
+    {
+      "name": "BigShot",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_shot"
+    },
+    {
+      "name": "BabaRecordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baba_record_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabaRecordRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baba_record_right_clicked_on_block",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "BabaRecord",
+      "type": "musicdisc",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baba_record"
+    },
+    {
+      "name": "SpaceFluidMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_fluid_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpaceFluidRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_fluid_recipe"
+    },
+    {
+      "name": "QReflector",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_reflector"
+    },
+    {
+      "name": "QReflectorRedstoneOn",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_reflector_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heal",
+      "type": "fluid",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "HealMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenSpire",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_spire"
+    },
+    {
+      "name": "XenBiome",
+      "type": "biome",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_biome"
+    },
+    {
+      "name": "Xen",
+      "type": "dimension",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Xenium",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenium"
+    },
+    {
+      "name": "XeniumRedstoneOn",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenium_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xenstone",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenstone"
+    },
+    {
+      "name": "XeniumBlock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenium_block"
+    },
+    {
+      "name": "SodaFoodEaten",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soda_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soda",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soda"
+    },
+    {
+      "name": "XenHair",
+      "type": "plant",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_hair"
+    },
+    {
+      "name": "XenPlantLight",
+      "type": "plant",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_plant_light"
+    },
+    {
+      "name": "LongFallBootsTickEvent",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_fall_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenCrytalFormation",
+      "type": "structure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_crytal_formation"
+    },
+    {
+      "name": "XenCrystalFormation2",
+      "type": "structure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_crystal_formation_2"
+    },
+    {
+      "name": "XenSpireStruct",
+      "type": "structure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_spire_struct"
+    },
+    {
+      "name": "XenSpireStruct2",
+      "type": "structure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_spire_struct_2"
+    },
+    {
+      "name": "XenFloatingIsland",
+      "type": "structure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_floating_island"
+    },
+    {
+      "name": "XenFloatingIsland2",
+      "type": "structure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_floating_island_2"
+    },
+    {
+      "name": "XenProtozoan",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_protozoan"
+    },
+    {
+      "name": "QReflectorRecipie",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_reflector_recipie"
+    },
+    {
+      "name": "LongFall",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_fall",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "A",
+      "type": "loottable",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a"
+    },
+    {
+      "name": "XenOrangeFoodEaten",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_orange_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenOrange",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_orange"
+    },
+    {
+      "name": "XenOrangeCraft",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_orange_craft"
+    },
+    {
+      "name": "FriedXairFoodEaten",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_xair_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FriedXair",
+      "type": "food",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_xair"
+    },
+    {
+      "name": "Xairreci",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xairreci"
+    },
+    {
+      "name": "ToxicWaterMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_water_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToxicWater",
+      "type": "fluid",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_water",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "XenEnter",
+      "type": "achievement",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_enter"
+    },
+    {
+      "name": "Forcefeild",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forcefeild"
+    },
+    {
+      "name": "Deal",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deal"
+    },
+    {
+      "name": "GenericAttack",
+      "type": "rangeditem",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generic_attack"
+    },
+    {
+      "name": "Ad",
+      "type": "gui",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad"
+    },
+    {
+      "name": "AdThisGUIIsOpened",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_this_gui_is_opened",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Close",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "close",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GenericAttackProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generic_attack_projectile_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PuppetHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Puppet",
+      "type": "armor",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Dealmaker",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dealmaker",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "MurderGold",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murder_gold",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpamtonShop",
+      "type": "gui",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamton_shop"
+    },
+    {
+      "name": "SPAMTONDROPS",
+      "type": "loottable",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamtondrops"
+    },
+    {
+      "name": "SpamtonGSpamtonEntityDies",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spamton_g_spamton_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FallingMineRedstoneOn",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falling_mine_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FallingMine",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falling_mine"
+    },
+    {
+      "name": "TangledHair",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tangled_hair"
+    },
+    {
+      "name": "XenLauncherEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_launcher_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenLauncher",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_launcher"
+    },
+    {
+      "name": "XenPit",
+      "type": "structure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit"
+    },
+    {
+      "name": "XenPit2",
+      "type": "structure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_2"
+    },
+    {
+      "name": "XenPit3",
+      "type": "structure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_3"
+    },
+    {
+      "name": "XenPit4",
+      "type": "structure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_4"
+    },
+    {
+      "name": "XenPit5",
+      "type": "structure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_5"
+    },
+    {
+      "name": "XenPit6",
+      "type": "structure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_6"
+    },
+    {
+      "name": "XenPit7",
+      "type": "structure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_7"
+    },
+    {
+      "name": "XenPit8",
+      "type": "structure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_8"
+    },
+    {
+      "name": "XenPit9",
+      "type": "structure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_9"
+    },
+    {
+      "name": "XenPit10",
+      "type": "structure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_10"
+    },
+    {
+      "name": "XenPit11",
+      "type": "structure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pit_11"
+    },
+    {
+      "name": "XenBigIsland",
+      "type": "structure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_big_island"
+    },
+    {
+      "name": "DirtyWater",
+      "type": "food",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_water"
+    },
+    {
+      "name": "ExplosiveBarrel",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_barrel"
+    },
+    {
+      "name": "MetalScrap",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_scrap"
+    },
+    {
+      "name": "Explode",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveBarrelEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_barrel_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadiationOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radiation",
+      "type": "potioneffect",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation"
+    },
+    {
+      "name": "ToxicWaterUpdateTick",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_water_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DirtyWaterFoodEaten",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_water_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Plastic",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "OilAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HowToMakePlastic101",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_to_make_plastic_101"
+    },
+    {
+      "name": "HazmatArmor",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HazmatArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_armor_helmet_recipe"
+    },
+    {
+      "name": "HazmatArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_armor_body_recipe"
+    },
+    {
+      "name": "HazmatArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_armor_leggings_recipe"
+    },
+    {
+      "name": "HazmatArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_armor_boots_recipe"
+    },
+    {
+      "name": "WearingFullHazmat",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wearing_full_hazmat",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MetalScrapToMetal",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_scrap_to_metal"
+    },
+    {
+      "name": "AntiRad",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_rad"
+    },
+    {
+      "name": "AntiRadFoodEaten",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_rad_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrinkMixer",
+      "type": "gui",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_mixer"
+    },
+    {
+      "name": "ArrowRepelentOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_repelent_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArrowRepelent",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_repelent"
+    },
+    {
+      "name": "WoodenCrate",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_crate"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "gman_12",
+      "files": [
+        "gman_12"
+      ],
+      "category": "voice",
+      "subtitle": "Cleverly done, Mr. Freeman, but you\u0027re not supposed to be here. As a matter of fact, you\u0027re not. Go back to where you belong and forget about all this. Until we meet again."
+    },
+    {
+      "name": "snd_spamton_laugh",
+      "files": [
+        "snd_spamton_laugh"
+      ],
+      "category": "voice",
+      "subtitle": "  HA  H A  H A   HA!!!!!1!!111!"
+    },
+    {
+      "name": "snd_chargeshot_fire",
+      "files": [
+        "snd_chargeshot_fire"
+      ],
+      "category": "hostile",
+      "subtitle": "I TRUSTED YOU [[Friend]]!"
+    },
+    {
+      "name": "nowsyourchance",
+      "files": [
+        "spamton_battle"
+      ],
+      "category": "neutral",
+      "subtitle": "Now\u0027s your chance to be a big shot!"
+    },
+    {
+      "name": "spamton",
+      "files": [
+        "spamton_meeting"
+      ],
+      "category": "music",
+      "subtitle": "NOW\"S YOUR CHANCE!"
+    },
+    {
+      "name": "bigshot",
+      "files": [
+        "spamton_neo_mix_ex_wip"
+      ],
+      "category": "record",
+      "subtitle": "BIG SHOT!!!!"
+    },
+    {
+      "name": "castletown",
+      "files": [
+        "castletown"
+      ],
+      "category": "music",
+      "subtitle": "Ralsei the fluffy prince"
+    },
+    {
+      "name": "withyouinthedark_ch2",
+      "files": [
+        "ch2_credits"
+      ],
+      "category": "record",
+      "subtitle": "I\u0027m with you in the dark"
+    },
+    {
+      "name": "legend",
+      "files": [
+        "legend"
+      ],
+      "category": "music",
+      "subtitle": "do do do doooo"
+    },
+    {
+      "name": "baba",
+      "files": [
+        "baba"
+      ],
+      "category": "record",
+      "subtitle": "baba"
+    },
+    {
+      "name": "babatheme",
+      "files": [
+        "menu"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "a",
+      "files": [
+        "nil_deceive",
+        "nil_comes",
+        "nil_deceive",
+        "nil_die",
+        "nil_done",
+        "nil_thetruth",
+        "nil_thieves"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "snd_ominous",
+      "files": [
+        "snd_ominous"
+      ],
+      "category": "neutral",
+      "subtitle": "[[Ominous Sound]]"
+    },
+    {
+      "name": "nil_thetruth",
+      "files": [
+        "nil_thetruth"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "nill_deceive",
+      "files": [
+        "nil_deceive"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "nil_thieves",
+      "files": [
+        "nil_thieves"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "nil_done",
+      "files": [
+        "nil_done"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "nil_die",
+      "files": [
+        "nil_die"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "nil_comes",
+      "files": [
+        "nil_comes"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "dimensionless_deepness",
+      "files": [
+        "prospero04"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "boid_idle1",
+      "files": [
+        "boid_idle1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "alien_zonerator",
+      "files": [
+        "alien_zonerator"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "alien_cycletone",
+      "files": [
+        "alien_cycletone"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "alien_wind2",
+      "files": [
+        "alienwind2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "alienvoices1",
+      "files": [
+        "alienvoices1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "theme3",
+      "files": [
+        "theme3"
+      ],
+      "category": "ambient",
+      "subtitle": "closer"
+    },
+    {
+      "name": "ad_jingle",
+      "files": [
+        "577363__badoink__snappy-ad-jingle"
+      ],
+      "category": "hostile",
+      "subtitle": "AAAAAAAAAAA"
+    },
+    {
+      "name": "warning",
+      "files": [
+        "51752__erkanozan__warning"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "barrel_impact_soft",
+      "files": [
+        "metal_barrel_impact_soft1",
+        "metal_barrel_impact_soft2",
+        "metal_barrel_impact_soft3"
+      ],
+      "category": "block",
+      "subtitle": "Soft Barrel Impact "
+    },
+    {
+      "name": "hard_barrel_impact",
+      "files": [
+        "metal_barrel_impact_hard1"
+      ],
+      "category": "block",
+      "subtitle": "Hard Barrel Impact"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.snd_ominous": "[[Ominous Sound]]",
+      "item.undogo.dealmaker_helmet": "Dealmaker Helmet",
+      "block.undogo.q_reflector": "Q Reflector",
+      "block.undogo.xen_hair": "Xen Hair",
+      "entity.undogo.xen_protozoan": "Xen Protozoan",
+      "subtitles.snd_spamton_laugh": "  HA  H A  H A   HA!!!!!1!!111!",
+      "item.undogo.puppet_boots": "Puppet Boots",
+      "item.undogo.xen_orange": "Xen Orange",
+      "item.undogo.xen": "Xenium",
+      "subtitles.babatheme": "",
+      "block.undogo.xenium": "Xenium",
+      "item.undogo.heal_bucket": "Xen Water Bucket",
+      "subtitles.legend": "do do do doooo",
+      "block.undogo.xen_spire": "Xen Spire",
+      "item.undogo.big_shot.desc": "Toby Fox",
+      "item.undogo.hazmat_armor_chestplate": "Hazmat Chestplate",
+      "item.undogo.hazmat_armor_boots": "Hazmat Boots",
+      "item.undogo.hazmat_armor_helmet": "Hazmat Helmet",
+      "subtitles.nil_die": "",
+      "item.undogo.dirty_water": "Dirty Water",
+      "item.undogo.hazmat_armor_leggings": "Hazmat Leggings",
+      "enchantment.undogo.gods_light": "Gods Light",
+      "subtitles.gman_12": "Cleverly done, Mr. Freeman, but you\u0027re not supposed to be here. As a matter of fact, you\u0027re not. Go back to where you belong and forget about all this. Until we meet again.",
+      "item.undogo.fried_xair": "Fried Xair",
+      "subtitles.ad_jingle": "AAAAAAAAAAA",
+      "item.undogo.puppet_chestplate": "Puppet Body",
+      "subtitles.nowsyourchance": "Now\u0027s your chance to be a big shot!",
+      "block.undogo.wooden_crate": "Barrel",
+      "subtitles.nil_done": "",
+      "effect.undogo.radiation": "Radiation",
+      "item.undogo.spamton_g_spamton_spawn_egg": "Spamton G Spamton Spawn Egg",
+      "block.undogo.falling_mine": "Falling Mine",
+      "fluid.undogo.space_fluid": "Space Fluid",
+      "subtitles.barrel_impact_soft": "Soft Barrel Impact ",
+      "fluid.undogo.toxic_water": "Toxic Water",
+      "item.undogo.puppet_helmet": "Puppet Scarf",
+      "subtitles.castletown": "Ralsei the fluffy prince",
+      "item.undogo.deal": "Deal",
+      "subtitles.alien_cycletone": "",
+      "advancements.xen_enter.descr": "Enter Xen",
+      "item.undogo.space_fluid_bucket": "Space Fluid Bucket",
+      "subtitles.warning": "",
+      "subtitles.alien_wind2": "",
+      "fluid.undogo.heal": "Xen Water",
+      "item.undogo.toxic_water_bucket": "Toxic Water Bucket",
+      "block.undogo.space_fluid": "Space Fluid",
+      "item.undogo.anti_rad": "Anti Rad",
+      "subtitles.baba": "baba",
+      "subtitles.snd_chargeshot_fire": "I TRUSTED YOU [[Friend]]!",
+      "item.undogo.generic_attack": "VIRUS DETECTED!!!",
+      "subtitles.nil_thetruth": "",
+      "subtitles.a": "",
+      "subtitles.boid_idle1": "",
+      "item.undogo.xen_protozoan_spawn_egg": "Xen Protozoan Spawn Egg",
+      "block.undogo.xen_plant_light": "Xen Plant Light",
+      "block.undogo.xenstone": "Xenstone",
+      "biome.undogo.xen_biome": "Xen Biome",
+      "item.undogo.big_shot": "Big Shot",
+      "subtitles.theme3": "closer",
+      "block.undogo.toxic_water": "Toxic Water",
+      "subtitles.alien_zonerator": "",
+      "block.undogo.forcefeild": "Forcefeild",
+      "item.undogo.dealmaker_chestplate": "Dealmaker Body",
+      "item.undogo.baba_record": "Baba Record",
+      "subtitles.spamton": "NOW\"S YOUR CHANCE!",
+      "entity.undogo.spamton_g_spamton": "Spamton G Spamton",
+      "subtitles.withyouinthedark_ch2": "I\u0027m with you in the dark",
+      "subtitles.nil_comes": "",
+      "fluid.undogo.oil": "Oil",
+      "item.undogo.puppet_leggings": "Puppet Leggings",
+      "block.undogo.heal": "Xen Water",
+      "subtitles.hard_barrel_impact": "Hard Barrel Impact",
+      "item.undogo.long_fall_leggings": "Long Fall Leggings",
+      "item.undogo.plastic": "Plastic",
+      "item.undogo.dealmaker_boots": "Dealmaker Boots",
+      "item.undogo.baba_record.desc": "Baba Is You",
+      "item.undogo.long_fall_chestplate": "Long Fall Body",
+      "subtitles.alienvoices1": "",
+      "block.undogo.explosive_barrel": "Barrel",
+      "item.undogo.oil_bucket": "Oil Bucket",
+      "block.undogo.xenium_block": "Xenium Block",
+      "biome.undogo.wasteland": "Wasteland",
+      "item.undogo.dealmaker_leggings": "Dealmaker Leggings",
+      "item.undogo.metal_scrap": "Metal Scrap",
+      "item.undogo.soda": "Soda",
+      "block.undogo.tangled_hair": "Tangled Hair",
+      "advancements.xen_enter.title": "Xen Enter",
+      "subtitles.nil_thieves": "",
+      "block.undogo.xen_launcher": "Xen Launcher",
+      "block.undogo.arrow_repelent": "Arrow Repelent",
+      "subtitles.bigshot": "BIG SHOT!!!!",
+      "item.undogo.long_fall_helmet": "Long Fall Helmet",
+      "subtitles.nill_deceive": "",
+      "item.undogo.long_fall_boots": "Long Fall Boots",
+      "block.undogo.oil": "Oil",
+      "subtitles.dimensionless_deepness": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "undogo",
+    "modName": "Undogo",
+    "version": "1.0.0",
+    "description": "idk look at the page on curseforge if it hasn\u0027t been taken down by now.",
+    "author": "maxim, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "spamton_battle_static",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.undogo",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
