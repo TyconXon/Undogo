@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "undogo:blocks/extractor_down",
+    "up": "undogo:blocks/extractor_top",
+    "north": "undogo:blocks/extractor_side",
+    "east": "undogo:blocks/extractor_side",
+    "south": "undogo:blocks/extractor_side",
+    "west": "undogo:blocks/extractor_side",
+    "particle": "undogo:blocks/extractor_down"
+  }
+}

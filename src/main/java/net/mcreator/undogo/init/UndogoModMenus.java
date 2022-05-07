@@ -13,6 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.undogo.world.inventory.SpamtonShopMenu;
+import net.mcreator.undogo.world.inventory.ExtractorGUIMenu;
 import net.mcreator.undogo.world.inventory.DrinkMixerMenu;
 import net.mcreator.undogo.world.inventory.AdMenu;
 
@@ -27,6 +28,8 @@ public class UndogoModMenus {
 			(id, inv, extraData) -> new SpamtonShopMenu(id, inv, extraData));
 	public static final MenuType<DrinkMixerMenu> DRINK_MIXER = register("drink_mixer",
 			(id, inv, extraData) -> new DrinkMixerMenu(id, inv, extraData));
+	public static final MenuType<ExtractorGUIMenu> EXTRACTOR_GUI = register("extractor_gui",
+			(id, inv, extraData) -> new ExtractorGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

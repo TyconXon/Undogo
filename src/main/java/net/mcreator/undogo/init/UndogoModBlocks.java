@@ -29,6 +29,7 @@ import net.mcreator.undogo.block.OilBlock;
 import net.mcreator.undogo.block.HealBlock;
 import net.mcreator.undogo.block.ForcefeildBlock;
 import net.mcreator.undogo.block.FallingMineBlock;
+import net.mcreator.undogo.block.ExtractorBlock;
 import net.mcreator.undogo.block.ExplosiveBarrelBlock;
 import net.mcreator.undogo.block.ArrowRepelentBlock;
 
@@ -57,6 +58,7 @@ public class UndogoModBlocks {
 	public static final Block TANGLED_HAIR = register(new TangledHairBlock());
 	public static final Block EXPLOSIVE_BARREL = register(new ExplosiveBarrelBlock());
 	public static final Block WOODEN_CRATE = register(new WoodenCrateBlock());
+	public static final Block EXTRACTOR = register(new ExtractorBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

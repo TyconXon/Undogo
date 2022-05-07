@@ -84,6 +84,7 @@ public class UndogoModItems {
 	public static final Item METAL_SCRAP = register(new MetalScrapItem());
 	public static final Item PLASTIC = register(new PlasticItem());
 	public static final Item WOODEN_CRATE = register(UndogoModBlocks.WOODEN_CRATE, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item EXTRACTOR = register(UndogoModBlocks.EXTRACTOR, CreativeModeTab.TAB_DECORATIONS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
