@@ -19,7 +19,9 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.undogo.network.ExtractorGUISlotMessage;
 import net.mcreator.undogo.init.UndogoModMenus;
+import net.mcreator.undogo.UndogoMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -83,6 +85,11 @@ public class ExtractorGUIMenu extends AbstractContainerMenu implements Supplier<
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 44) {
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(1, 0, 0);
+			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 133, 44) {
 			@Override
@@ -228,6 +235,13 @@ public class ExtractorGUIMenu extends AbstractContainerMenu implements Supplier<
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			UndogoMod.PACKET_HANDLER.sendToServer(new ExtractorGUISlotMessage(slotid, x, y, z, ctype, meta));
+			ExtractorGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

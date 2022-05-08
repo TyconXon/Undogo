@@ -14,6 +14,7 @@ import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.undogo.world.biome.XenBiomeBiome;
 import net.mcreator.undogo.world.biome.WastelandBiome;
+import net.mcreator.undogo.world.biome.FloodsBiome;
 import net.mcreator.undogo.UndogoMod;
 
 import java.util.List;
@@ -24,6 +25,7 @@ public class UndogoModBiomes {
 	private static final List<Biome> REGISTRY = new ArrayList<>();
 	public static Biome WASTELAND = register("wasteland", WastelandBiome.createBiome());
 	public static Biome XEN_BIOME = register("xen_biome", XenBiomeBiome.createBiome());
+	public static Biome FLOODS = register("floods", FloodsBiome.createBiome());
 
 	private static Biome register(String registryname, Biome biome) {
 		REGISTRY.add(biome.setRegistryName(new ResourceLocation(UndogoMod.MODID, registryname)));
@@ -40,6 +42,7 @@ public class UndogoModBiomes {
 		event.enqueueWork(() -> {
 			WastelandBiome.init();
 			XenBiomeBiome.init();
+			FloodsBiome.init();
 		});
 	}
 }

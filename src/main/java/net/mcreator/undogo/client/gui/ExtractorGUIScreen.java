@@ -48,16 +48,25 @@ public class ExtractorGUIScreen extends AbstractContainerScreen<ExtractorGUIMenu
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("undogo:textures/stickynote_1.png"));
-		this.blit(ms, this.leftPos + 69, this.topPos + 16, 0, 0, 20, 16, 20, 16);
+		this.blit(ms, this.leftPos + 60, this.topPos + 25, 0, 0, 20, 16, 20, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("undogo:textures/stickynote_2.png"));
-		this.blit(ms, this.leftPos + 96, this.topPos + 16, 0, 0, 20, 16, 20, 16);
+		this.blit(ms, this.leftPos + 60, this.topPos + 7, 0, 0, 20, 16, 20, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("undogo:textures/stickynote1.png"));
-		this.blit(ms, this.leftPos + -110, this.topPos + 7, 0, 0, 80, 80, 80, 80);
+		this.blit(ms, this.leftPos + -128, this.topPos + 7, 0, 0, 80, 80, 80, 80);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("undogo:textures/stickynote1.png"));
 		this.blit(ms, this.leftPos + -74, this.topPos + 7, 0, 0, 80, 80, 80, 80);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("undogo:textures/colorfulbar_long.png"));
+		this.blit(ms, this.leftPos + 78, this.topPos + 43, 0, 0, 54, 17, 54, 17);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("undogo:textures/colorfulbar_correct.png"));
+		this.blit(ms, this.leftPos + 42, this.topPos + 43, 0, 0, 18, 18, 18, 18);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("undogo:textures/starhere.png"));
+		this.blit(ms, this.leftPos + 24, this.topPos + 25, 0, 0, 18, 18, 18, 18);
 
 		RenderSystem.disableBlend();
 	}
@@ -79,10 +88,11 @@ public class ExtractorGUIScreen extends AbstractContainerScreen<ExtractorGUIMenu
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Extractor", 6, 7, -12829636);
-		this.font.draw(poseStack, "golden portal", -110, 16, -12829636);
-		this.font.draw(poseStack, "+ xenium = xen", -110, 25, -12829636);
-		this.font.draw(poseStack, "sealantern portal", -110, 43, -12829636);
-		this.font.draw(poseStack, "+PLACEHOLDER = PLACEHOLDER", -110, 52, -12829636);
+		this.font.draw(poseStack, "golden portal", -119, 16, -12829636);
+		this.font.draw(poseStack, "+ Xenium = Xen", -119, 25, -12829636);
+		this.font.draw(poseStack, "sealantern portal", -119, 43, -12829636);
+		this.font.draw(poseStack, "+Active Greywater", -119, 52, -12829636);
+		this.font.draw(poseStack, "= Caustic Optics", -119, 61, -12829636);
 	}
 
 	@Override

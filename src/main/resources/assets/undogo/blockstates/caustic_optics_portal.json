@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "undogo:block/caustic_optics_portal_ew"
+    },
+    "axis=x": {
+      "model": "undogo:block/caustic_optics_portal_ns"
+    }
+  }
+}

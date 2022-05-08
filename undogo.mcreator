@@ -1355,6 +1355,53 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "extractor_gui"
+    },
+    {
+      "name": "CausticOptics",
+      "type": "dimension",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caustic_optics",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Floods",
+      "type": "biome",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floods"
+    },
+    {
+      "name": "ExtractorGuiOnItem",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extractor_gui_on_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1616,6 +1663,7 @@
       "block.undogo.xen_hair": "Xen Hair",
       "entity.undogo.xen_protozoan": "Xen Protozoan",
       "subtitles.snd_spamton_laugh": "  HA  H A  H A   HA!!!!!1!!111!",
+      "item.undogo.caustic_optics": "Activated Optical Greywater",
       "item.undogo.puppet_boots": "Puppet Boots",
       "item.undogo.xen_orange": "Xen Orange",
       "item.undogo.xen": "Xenium",
@@ -1678,6 +1726,7 @@
       "entity.undogo.spamton_g_spamton": "Spamton G Spamton",
       "subtitles.withyouinthedark_ch2": "I\u0027m with you in the dark",
       "subtitles.nil_comes": "",
+      "biome.undogo.floods": "Floods",
       "fluid.undogo.oil": "Oil",
       "block.undogo.extractor": "Extractor",
       "item.undogo.puppet_leggings": "Puppet Leggings",

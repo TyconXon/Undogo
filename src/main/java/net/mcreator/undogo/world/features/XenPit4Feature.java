@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.Level;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.Registry;
 import net.minecraft.core.BlockPos;
 
 import java.util.Set;
@@ -33,7 +34,7 @@ public class XenPit4Feature extends Feature<NoneFeatureConfiguration> {
 	public boolean place(FeaturePlaceContext<NoneFeatureConfiguration> context) {
 		boolean dimensionCriteria = false;
 		ResourceKey<Level> dimensionType = context.level().getLevel().dimension();
-		if (dimensionType == Level.OVERWORLD)
+		if (dimensionType == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("undogo:xen")))
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return false;

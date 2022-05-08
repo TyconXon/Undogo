@@ -31,6 +31,7 @@ import net.mcreator.undogo.item.FriedXairItem;
 import net.mcreator.undogo.item.DirtyWaterItem;
 import net.mcreator.undogo.item.DealmakerItem;
 import net.mcreator.undogo.item.DealItem;
+import net.mcreator.undogo.item.CausticOpticsItem;
 import net.mcreator.undogo.item.BigShotItem;
 import net.mcreator.undogo.item.BabaRecordItem;
 import net.mcreator.undogo.item.AntiRadItem;
@@ -85,6 +86,7 @@ public class UndogoModItems {
 	public static final Item PLASTIC = register(new PlasticItem());
 	public static final Item WOODEN_CRATE = register(UndogoModBlocks.WOODEN_CRATE, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item EXTRACTOR = register(UndogoModBlocks.EXTRACTOR, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item CAUSTIC_OPTICS = register(new CausticOpticsItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

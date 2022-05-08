@@ -46,6 +46,9 @@
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "ExtractorGuiOnItem"
+          },
           "name": "Slot #1",
           "x": 186,
           "y": 80
@@ -68,8 +71,8 @@
           "image": "stickynote_1.png",
           "use1Xscale": false,
           "name": "stickynote_1.png",
-          "x": 195,
-          "y": 53
+          "x": 186,
+          "y": 62
         }
       },
       {
@@ -78,8 +81,8 @@
           "image": "stickynote_2.png",
           "use1Xscale": false,
           "name": "stickynote_2.png",
-          "x": 222,
-          "y": 53
+          "x": 186,
+          "y": 44
         }
       },
       {
@@ -88,7 +91,7 @@
           "image": "stickynote1.png",
           "use1Xscale": false,
           "name": "stickynote1.png",
-          "x": 15,
+          "x": -3,
           "y": 44
         }
       },
@@ -101,7 +104,7 @@
             "falpha": 0.0
           },
           "name": "golden portal",
-          "x": 15,
+          "x": 6,
           "y": 53
         }
       },
@@ -118,13 +121,13 @@
       {
         "type": "label",
         "data": {
-          "text": "+ xenium = xen",
+          "text": "+ Xenium = Xen",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "+ xenium = xen",
-          "x": 15,
+          "name": "+ Xenium = Xen",
+          "x": 6,
           "y": 62
         }
       },
@@ -137,21 +140,64 @@
             "falpha": 0.0
           },
           "name": "sealantern portal",
-          "x": 15,
+          "x": 6,
           "y": 80
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "+PLACEHOLDER = PLACEHOLDER",
+          "text": "+Active Greywater",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "+PLACEHOLDER = PLACEHOLDER",
-          "x": 15,
+          "name": "+Active Greywater",
+          "x": 6,
           "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "= Caustic Optics",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "= Caustic Optics",
+          "x": 6,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "colorfulbar_long.png",
+          "use1Xscale": false,
+          "name": "colorfulbar_long.png",
+          "x": 204,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "colorfulbar_correct.png",
+          "use1Xscale": false,
+          "name": "colorfulbar_correct.png",
+          "x": 168,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "starhere.png",
+          "use1Xscale": false,
+          "name": "starhere.png",
+          "x": 150,
+          "y": 62
         }
       }
     ],
